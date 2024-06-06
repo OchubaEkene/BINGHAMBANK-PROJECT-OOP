@@ -25,3 +25,9 @@ d.deposit(1000)
 d.withdraw(10)
 
 
+class CurrentAccount(Account):
+    pass
+
+d = CurrentAccount()
+d.deposit(1000)
+
